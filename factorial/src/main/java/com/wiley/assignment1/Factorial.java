@@ -68,12 +68,13 @@ public class Factorial {
 		int result = 1;
 		//YOUR CODE STARTS HERE
 
+		 //Loop through each number and multiply. Start at 2 as if i=1 the result will be 1 so is a wasted loop
 		 for (int i = 2; i <= num; i++) {
 			 result *= i;
 		 }
 
 		//YOUR CODE ENDS HERE
-		this.printStream.print("The Factorial is: " + result);		
+		this.printStream.print("The Factorial is:" + result);
 		
 	 }
 	 
